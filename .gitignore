@@ -1,0 +1,28 @@
+# Python
+.venv/
+venv/
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# RAG local DB & heavy artifacts
+rag/chroma_db/
+
+# Node / Next.js
+disaster-brain/node_modules/
+disaster-brain/.next/
+disaster-brain/out/
+disaster-brain/.vercel/
+disaster-brain/*.tsbuildinfo
+disaster-brain/npm-debug.log*
+disaster-brain/yarn-error.log*
+
+# Env & secrets
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
